@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var methodOverride = require('method-override');
 var expressSanitizer = require('express-sanitizer');
 
-mongoose.connect("mongodb://localhost:27017/restful_blog_app", {
+mongoose.connect("mongodb+srv://admin-rishabh:pass123@blogapp.reymv.mongodb.net/blog_app", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
